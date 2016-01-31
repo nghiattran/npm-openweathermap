@@ -1,5 +1,5 @@
 # npm-openweathermap [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] 
-> Generate a weather forecast using http://www.openweathermap.com/ API.
+>  Generate a weather forecast using http://www.openweathermap.com/ API.
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ npm install --save npm-openweathermap
 ## Usage
 
 ```js
-var yupWeather = require('npm-openweathermap');
+var weather = require('npm-openweathermap');
 
 // api_key is required. You can get one at http://www.openweathermap.com/
 weather.api_key = 'YOUR-API-KEY';
