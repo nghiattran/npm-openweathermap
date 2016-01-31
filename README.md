@@ -1,16 +1,16 @@
-# yup-weather [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# npm-openweathermap [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] 
 > Generate a weather forecast using http://www.openweathermap.com/ API.
 
 ## Installation
 
 ```sh
-$ npm install --save yup-weather
+$ npm install --save npm-openweathermap
 ```
 
 ## Usage
 
 ```js
-var yupWeather = require('yup-weather');
+var yupWeather = require('npm-openweathermap');
 
 // api_key is required. You can get one at http://www.openweathermap.com/
 weather.api_key = 'YOUR-API-KEY';
@@ -85,13 +85,13 @@ weather.get_weather_custom('coordinates', location, 'weather').then(function(res
 ## License
 
 MIT © [NghiaTran]()
+<!-- [![Coverage percentage][coveralls-image]][coveralls-url] -->
 
-
-[npm-image]: https://badge.fury.io/js/yup-weather.svg
-[npm-url]: https://npmjs.org/package/yup-weather
-[travis-image]: https://travis-ci.org/nghiattran/yup-weather.svg?branch=master
-[travis-url]: https://travis-ci.org/nghiattran/yup-weather
-[daviddm-image]: https://david-dm.org/nghiattran/yup-weather.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/nghiattran/yup-weather
-[coveralls-image]: https://coveralls.io/repos/nghiattran/yup-weather/badge.svg
-[coveralls-url]: https://coveralls.io/r/nghiattran/yup-weather
+[npm-image]: https://badge.fury.io/js/npm-openweathermap.svg
+[npm-url]: https://npmjs.org/package/npm-openweathermap
+[travis-image]: https://travis-ci.org/nghiattran/npm-openweathermap.svg?branch=master
+[travis-url]: https://travis-ci.org/nghiattran/npm-openweathermap
+[daviddm-image]: https://david-dm.org/nghiattran/npm-openweathermap.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/nghiattran/npm-openweathermap
+[coveralls-image]: https://coveralls.io/repos/nghiattran/npm-openweathermap/badge.svg
+[coveralls-url]: https://coveralls.io/r/nghiattran/npm-openweathermap
