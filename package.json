@@ -1,0 +1,33 @@
+{
+  "name": "npm-openweathermap",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "Generate a weather forecast using http://www.openweathermap.com/ API.",
+  "author": {
+    "name": "NghiaTran",
+    "email": "nghiattran3@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "weather",
+    "forecast",
+    "forecast weather",
+    "weather forecast"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "jshint": "^2.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint-stylish": "^2.1.0"
+  },
+  "repository": "nghiattran/npm-openweathermap",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.69.0"
+  }
+}
